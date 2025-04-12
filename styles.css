@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+}
+header {
+    background: #006400;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 1em;
+    color: white;
+    text-decoration: none;
+}
+#hero {
+    padding: 2em;
+    background: #e0ffe0;
+    text-align: center;
+}
+#produits {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background: white;
+}
+.produit {
+    text-align: center;
+}
+.produit img {
+    width: 150px;
+    height: auto;
+}
+#contact {
+    background: #f2f2f2;
+    padding: 2em;
+    text-align: center;
+}
+form input, form textarea {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    padding: 0.5em;
+}
+footer {
+    background: #006400;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
